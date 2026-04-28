@@ -92,3 +92,4 @@ This skill only calculates grades from the provided CSV data. It does not know o
 
 ## Video link
 
+https://www.youtube.com/watch?v=n1nGz_gHJVE
