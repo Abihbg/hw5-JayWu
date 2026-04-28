@@ -53,6 +53,35 @@ Use the grade-weight-checker skill to inspect edge_case_grades.csv and tell me i
 
 Use the grade-weight-checker skill to tell me my official course letter grade and whether my professor will curve it.
 
+## Script test results
+
+### Normal case result
+
+Command:
+
+python .agents\skills\grade-weight-checker\scripts\grade_weight_checker.py sample_grades.csv
+
+Result:
+
+Final weighted grade: 89.45%
+Total weight: 100.00%
+Warnings: None
+
+### Edge case result
+
+Command:
+
+python .agents\skills\grade-weight-checker\scripts\grade_weight_checker.py edge_case_grades.csv
+
+Result:
+
+Final weighted grade: 76.50%
+Total weight: 80.00%
+
+Warnings:
+- Line 2: score is higher than max_score.
+- Total weight is 80.00%, not 100%.
+
 ## What worked well
 
 The skill works well because the script performs the exact calculations and catches common data problems. The agent can then explain the result in a clear and readable way.
