@@ -1,0 +1,5 @@
+category,item,score,max_score,weight
+Exam,Midterm Exam,85,100,25
+Project,Final Project,92,100,35
+Quiz,Quiz Average,18,20,20
+Participation,Class Participation,9,10,20
